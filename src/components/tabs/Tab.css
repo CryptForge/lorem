@@ -1,0 +1,13 @@
+.content-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-height: 80vh;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    display: inline;
+}

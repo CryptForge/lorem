@@ -1,0 +1,11 @@
+.website {
+    display: flex;
+    gap: 10px;
+}
+
+.website-title {
+    font-weight: 900;
+    margin: auto 0;
+    text-decoration: none;
+    color: black;
+}

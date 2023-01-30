@@ -1,0 +1,24 @@
+[
+    {
+        "name": "The Holy Bible",
+        "url": "https://www.bible.com/",
+        "description": "Funny book people write about me",
+        "clicks": 4
+    },
+    {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "description": "Best search engine",
+        "clicks": 1786
+    },
+    {
+        "name": "Stackexchange Worldbuilding",
+        "url": "https://worldbuilding.stackexchange.com/",
+        "clicks": 6
+    },
+    {
+        "name": "Github",
+        "url": "https://github.com/",
+        "clicks": 9 
+    }
+]

@@ -1,0 +1,22 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 1fr;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.box .box-children {
+    grid-column: 1 / 3;
+}
+
+.box .title {
+    font-size: 1.45em;
+    font-weight: normal;
+}
+
+.box .link {
+    text-align: right;
+    margin: auto 0;
+}

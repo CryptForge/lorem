@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Finish Website",
+        "category": "Suffering",
+        "description": "",
+        "deadline_date": "2023-2-10",
+        "deadline_time": "16:00:00",
+        "completed": false
+    },
+    {
+        "name": "Remove 50 million people",
+        "category": "System Management",
+        "description": "Eliminate 50 million people to reduce CPU load.",
+        "deadline_date": "2023-1-25",
+        "deadline_time": "12:00:00",
+        "completed": false
+    },
+    {
+        "name": "Force Microsoft to extend Windows 7 support",
+        "category": "Other",
+        "description": "The entire simulation runs on Windows 7, upgrading is not an option.",
+        "deadline_date": "2020-1-14",
+        "deadline_time": "23:59:00",
+        "completed": true
+    },
+    {
+        "name": "Update Windows",
+        "category": "System Management",
+        "description": "Update Windows 7 installation to \"fix security vulnerabilities\".",
+        "deadline_date": "2022-10-2",
+        "deadline_time": "14:43:00",
+        "completed": false
+    },
+    {
+        "name": "Flood Earth",
+        "category": "Entertainment",
+        "description": "No boat this time :)",
+        "completed": false
+    },
+
+
+    {
+        "name": "Test Task 1000",
+        "category": "Debugging",
+        "description": "",
+        "deadline_date": "2023-4-5",
+        "deadline_time": "12:00:00",
+        "completed": false
+    },
+    {
+        "name": "Test Task 2000",
+        "category": "Debugging",
+        "description": "",
+        "deadline_date": "2023-6-7",
+        "deadline_time": "12:00:00",
+        "completed": false
+    },
+    {
+        "name": "Test Task 3000",
+        "category": "Debugging",
+        "description": "",
+        "deadline_date": "2023-1-26",
+        "deadline_time": "13:00:00",
+        "completed": false
+    },
+    {
+        "name": "Test Task 4000",
+        "category": "Debugging",
+        "description": "",
+        "deadline_date": "2023-1-27",
+        "deadline_time": "14:00:00",
+        "completed": false
+    }
+]

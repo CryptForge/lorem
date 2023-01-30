@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    width: 100vw;
+    margin: 0;
+}
+
+.time {
+    display: inline;
+    margin: auto 30px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+.date {
+    display: inline;
+    margin: auto 0;
+    font-size: 1em;
+    color: white;
+}

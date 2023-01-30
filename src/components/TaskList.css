@@ -1,0 +1,6 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: 50vh;
+}
