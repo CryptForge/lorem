@@ -13,10 +13,10 @@ export default function TasksTab(props: Properties) {
         <>
             <p className="title">Tasks</p>
             <div className="content-grid">
-                <Box className="main-tasks" title={"My Tasks"}>
+                <Box className="main-tasks" title="My Tasks">
                     <TaskList tasks={props.tasks} includeCompleted={false} includeExpired={false} includeInProgress />
                 </Box>
-                <Box title="Progress">
+                <Box className="progress" title="Progress">
 
                 </Box>
                 <Box title="Finished tasks">

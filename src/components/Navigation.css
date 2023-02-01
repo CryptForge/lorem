@@ -39,3 +39,21 @@ nav a {
 nav a.active {
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        width: 90vw;
+        max-height: 110px;
+        margin: 20px auto;
+    }
+
+    .profile-img-container {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    nav {
+        margin: 5px;
+    }
+}

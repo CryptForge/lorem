@@ -1,8 +1,7 @@
-import { Routes, Route, NavLink } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Dashboard from './components/tabs/dashboard/Dashboard';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import OtherTab from './components/tabs/other/OtherTab';
 import TasksTab from './components/tabs/tasks/TasksTab';
 import Websites from './components/tabs/websites/WebsitesTab';
 import { useEffect, useState } from 'react';
@@ -18,7 +17,7 @@ export default function App() {
       .then(response => response.json())
       .then(data => {
         const mappedTasks: Task[] = data.map((rawTask: any) => {
-          { 
+          {
             return {
               name: rawTask.name,
               category: rawTask.category,
@@ -28,7 +27,7 @@ export default function App() {
             }
           }
         });
-        
+
         setTasks(mappedTasks);
       })
       .catch(error => console.error("Error while fetching task data: " + error));
@@ -77,8 +76,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Dashboard tasks={tasks} updateTask={updateTask} websites={websites} />} />
             <Route path="/tasks" element={<TasksTab tasks={tasks} />} />
-            <Route path="/websites" element={<Websites />} />
-            {/* <Route path="/other" element={<OtherTab />} /> */}
+            <Route path="/websites" element={<Websites websites={websites} />} />
           </Routes>
         </div>
       </div>

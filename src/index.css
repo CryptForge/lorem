@@ -17,6 +17,16 @@ body {
 }
 
 .content {
-  margin: 0 auto;
   max-width: 83vw;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .content {
+    max-width: 100%;
+    margin: 0 20px;
+  }
 }

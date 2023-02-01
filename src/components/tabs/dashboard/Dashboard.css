@@ -12,3 +12,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 1024px) {
+    .websites {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tasks-box {
+        grid-column: 1 / 2;
+    }
+}

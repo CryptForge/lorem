@@ -59,8 +59,8 @@
         "name": "Test Task 3000",
         "category": "Debugging",
         "description": "",
-        "deadline_date": "2023-1-26",
-        "deadline_time": "13:00:00",
+        "deadline_date": "2023-5-12",
+        "deadline_time": "12:00:00",
         "completed": false
     },
     {
